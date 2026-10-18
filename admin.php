@@ -2,8 +2,9 @@
 // [file name]: admin.php
 session_start();
 
-define('ADMIN_USERNAME', 'admin');
-define('ADMIN_PASSWORD', 'admin123');
+// Credentials: set env vars or fall back to defaults (CHANGE THESE!)
+define('ADMIN_USERNAME', getenv('LOTTERY_ADMIN_USER') ?: 'admin');
+define('ADMIN_PASSWORD', getenv('LOTTERY_ADMIN_PASS') ?: 'admin123');
 
 // بررسی لاگین
 if (!isset($_SESSION['logged_in'])) {

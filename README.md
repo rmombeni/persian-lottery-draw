@@ -51,7 +51,7 @@ php -S localhost:8000
 
 **پنل مدیریت:** `http://localhost:8000/admin.php` — نام کاربری و رمز پیش‌فرض: `admin` / `admin123`
 
-> ⚠️ **حتماً بعد از نصب، رمز عبور پیش‌فرض را تغییر دهید** (در ابتدای فایل `admin.php`، ثابت‌های `ADMIN_USERNAME` و `ADMIN_PASSWORD` را ویرایش کنید).
+> ⚠️ **حتماً بعد از نصب، رمز عبور پیش‌فرض را تغییر دهید** — یا از متغیرهای محیطی `LOTTERY_ADMIN_USER` / `LOTTERY_ADMIN_PASS` استفاده کنید، یا ثابت‌های `ADMIN_USERNAME` / `ADMIN_PASSWORD` را در ابتدای فایل `admin.php` ویرایش کنید.
 
 برای محیط production کافیست فایل‌ها را روی هر هاست PHP (cPanel، Apache، Nginx) کپی کنید؛ پوشه‌ها باید قابل نوشتن باشند.
 

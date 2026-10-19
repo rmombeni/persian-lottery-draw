@@ -171,7 +171,7 @@ $participants = readParticipants();
 
         .bismillah::before,
         .bismillah::after {
-            content: '☪';
+            content: '⭐';
             font-family: 'Vazir Matn', sans-serif;
             font-size: 24px;
             margin: 0 15px;
@@ -588,11 +588,11 @@ $participants = readParticipants();
 <body>
     <div class="container" id="mainContainer">
         <div class="bismillah">
-            بِسْمِ اللَّهِ الرَّحْمَـٰنِ الرَّحِيمِ
+            🎊 قرعه‌کشی آنلاین 🎊
         </div>
 
         <div class="dua-text">
-            اللَّهُمَّ اجْعَلْ هَذَا الْقُرْعَةَ مُبَارَكَةً
+            شانست رو امتحان کن — این بار نوبت توئه! 🍀
         </div>
 
         <div class="participants-count" id="participantsCount">
@@ -717,7 +717,7 @@ $participants = readParticipants();
             const eligibleParticipants = participants.filter(p => !previousWinners.includes(p.national_id));
             
             if (eligibleParticipants.length === 0) {
-                alert('همگی برگزیده شدند، اللهم صل علی محمد و آل محمد');
+                alert('همگی برگزیده شدند! 🎉');
                 return null;
             }
             

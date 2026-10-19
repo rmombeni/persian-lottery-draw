@@ -4,8 +4,11 @@
 >
 > **Persian (Farsi) RTL lottery draw system** with a full admin panel — add/import participants, animated lottery draw, save winners, no database, just plain PHP.
 
-![نمای سامانه قرعه کشی](docs/screenshot.png)
-![نمای موبایل](docs/screenshot-mobile.png)
+![نمای سامانه قرعه کشی - دسکتاپ](docs/screenshot.png)
+![نمای سامانه قرعه کشی - موبایل](docs/screenshot-mobile.png)
+![پنل مدیریت سامانه قرعه کشی](docs/screenshot-admin.png)
+![لیست برندگان](docs/screenshot-winners.png)
+![بایگانی قرعه کشی](docs/screenshot-archive.png)
 
 ## سامانه قرعه کشی چیست؟
 
